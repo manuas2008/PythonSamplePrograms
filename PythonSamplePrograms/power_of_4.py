@@ -1,4 +1,4 @@
-def isPowerOfFour(num):
+def power_of_4(num):
     bin_val = 0b01010101010101010101010101010100
     if num < 0:
         return False
@@ -10,3 +10,4 @@ def isPowerOfFour(num):
     else:
         return False
 
+print(power_of_4(64))
