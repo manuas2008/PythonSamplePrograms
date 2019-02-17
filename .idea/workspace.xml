@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828004e2-6b0e-4301-87f9-2d224bf8908d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonSamplePrograms/power_of_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonSamplePrograms/power_of_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_power_of_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_power_of_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_power_of_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonSamplePrograms/power_of_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonSamplePrograms/power_of_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_power_of_4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+              <caret selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -25,13 +26,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonSamplePrograms/power_of_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonSamplePrograms/power_of_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_power_of_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/PythonSamplePrograms/power_of_4.py" />
         <option value="$PROJECT_DIR$/tests/test_power_of_4.py" />
+        <option value="$PROJECT_DIR$/tests/test_power_of_2.py" />
+        <option value="$PROJECT_DIR$/PythonSamplePrograms/power_of_2.py" />
       </list>
     </option>
   </component>
@@ -91,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_power_of_4.test_power_of_4">
+  <component name="RunManager" selected="Python tests.pytest for test_power_of_2.test_power_of_2">
     <configuration name="power_of_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSamplePrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +139,21 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_power_of_2.test_power_of_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonSamplePrograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_power_of_2.test_power_of_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_power_of_4.test_isPowerOfFour" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -145,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_power_of_2.test_power_of_2" />
         <item itemvalue="Python tests.pytest for test_power_of_4.test_power_of_4" />
         <item itemvalue="Python.power_of_4" />
         <item itemvalue="Python tests.pytest for test_power_of_4.test_isPowerOfFour" />
@@ -169,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550363234481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. Restructured Code base&#10;2. Fixed import for power_of_4 package">
+      <created>1550364459816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550364459816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -194,17 +245,26 @@
     <history-entry file="pytest_for_test_power_of_4_test_power_of_4 - 2019.02.16 at 16h 41m 15s.xml">
       <configuration name="pytest for test_power_of_4.test_power_of_4" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_power_of_4_test_power_of_4 - 2019.02.16 at 16h 45m 26s.xml">
+      <configuration name="pytest for test_power_of_4.test_power_of_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_power_of_4_test_power_of_4 - 2019.02.16 at 17h 08m 45s.xml">
+      <configuration name="pytest for test_power_of_4.test_power_of_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_power_of_2_test_power_of_2 - 2019.02.16 at 18h 00m 27s.xml">
+      <configuration name="pytest for test_power_of_2.test_power_of_2" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20423001" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35558492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43342775" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36402267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,20 +280,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restructured Code base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructured Code base" />
+    <MESSAGE value="1. Restructured Code base&#10;2. Fixed import for power_of_4 package" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Restructured Code base&#10;2. Fixed import for power_of_4 package" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PythonSamplePrograms/power_of_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_power_of_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <caret selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_power_of_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonSamplePrograms/power_of_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

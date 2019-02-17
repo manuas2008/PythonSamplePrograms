@@ -1,4 +1,4 @@
-def isPowerOfTwo(n):
+def power_of_2(n):
     """
     :type n: int
     :rtype: bool
