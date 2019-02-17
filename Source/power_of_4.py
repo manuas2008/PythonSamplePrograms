@@ -10,4 +10,3 @@ def isPowerOfFour(num):
     else:
         return False
 
-print(isPowerOfFour(64))
