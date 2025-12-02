@@ -4,7 +4,7 @@ def test_roman_to_integer_positive_1():
     s = Solution()
     assert (s.romanToInt("LVIII") == 58)
 
-def test_roman_to_integer_positive_1():
+def test_roman_to_integer_positive_2():
     s = Solution()
     assert (s.romanToInt("XCIX") == 99)
 
