@@ -11,6 +11,14 @@ import pytest
         ([42], True),
         ([3, 3, 3, 3], True),
     ],
+    ids=[
+        "ascending_order",  
+        "not_sorted",
+        "descending_order",
+        "empty_list",
+        "single_element",
+        "all_equal",
+    ]
 )
 def test_sorted_or_not(arr, expected):
     assert sorted_or_not(arr) == expected   
