@@ -1,4 +1,4 @@
-from PythonSamplePrograms import add_digits
+from PythonSamplePrograms.add_digits import add_digits
 
 def test_add_digits_positive():
     assert(add_digits(38) == 2)
