@@ -1,4 +1,4 @@
-def sorted(arr: list) -> bool:
+def sorted_or_not(arr: list) -> bool:
     ascending = True
     descending = True
     n = len(arr)
@@ -13,6 +13,6 @@ def sorted(arr: list) -> bool:
     return True
 
 
-print(sorted([1,2,3,4,5,6]))
-print(sorted([1,2,5,8,2,3]))
-print(sorted([7,6,5,4,3,2,1]))
+print(sorted_or_not([1,2,3,4,5,6]))
+print(sorted_or_not([1,2,5,8,2,3]))
+print(sorted_or_not([7,6,5,4,3,2,1]))
