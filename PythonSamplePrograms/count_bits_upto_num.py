@@ -1,4 +1,4 @@
-def count_bits_upto_num(num: int) -> int:
+def count_bits_upto_num(num: int) -> list[int]:
     result = []
     for i in range(num + 1):
         curr_num_bit_count = 0
