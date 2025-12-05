@@ -1,10 +1,10 @@
-def max_profit(arr: list) -> int:
+def max_profit(prices: list) -> int:
     max_prof = 0
-    n = len(arr)
+    n = len(prices)
     for sell_idx in range(n-1, 0, -1):
         buy_idx = 0
         while buy_idx < sell_idx:
-            max_prof = max(max_prof, arr[sell_idx] - arr[buy_idx])
+            max_prof = max(max_prof, prices[sell_idx] - prices[buy_idx])
             buy_idx += 1
     return(max_prof)
 
