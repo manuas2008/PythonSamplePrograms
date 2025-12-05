@@ -10,4 +10,5 @@ def count_bits_upto_num(num: int) -> list[int]:
     return result
 
 
+
 print(count_bits_upto_num(8))
