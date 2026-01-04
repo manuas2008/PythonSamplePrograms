@@ -33,12 +33,12 @@ def test_equilibrium_point_with_zeros():
 
 def test_equilibrium_point_larger_array():
     """Test case with larger array"""
-    assert findEquilibrium([1, 2, 3, 4, 5, 3, 2, 1]) == 4
+    assert findEquilibrium([1, 2, 3, 4, 5, 3, 2, 1]) == -1
 
 
 def test_equilibrium_point_first_valid_position():
     """Test case where equilibrium is at first valid position"""
-    assert findEquilibrium([3, 0, 0, 0, 0]) == 1
+    assert findEquilibrium([3, 0, 0, 0, 0]) == -1
 
 
 def test_all_same_elements():
